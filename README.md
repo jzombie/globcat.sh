@@ -100,7 +100,7 @@ $ docker run --rm globcat-test
 
 Change the parameters as needed.
 
-Running scripts directly from GitHub is generally not an advisable thing to do, by the way, but here are the instructions on how to do it anyway.
+Running scripts directly from GitHub is generally not an advisable thing to do, by the way, but here are the instructions on how to do it anyway:
 
 ```bash
 curl -sL https://raw.githubusercontent.com/jzombie/globcat.sh/main/globcat.sh | bash -s -- -e '*.md,*.txt' -d '.'
