@@ -111,4 +111,4 @@ If you have suggestions for improvements or find any issues, please feel free to
 
 ## License
 
-[MIT License](LICENSE) Copyright (c) 2024 Jeremy Harris
+[MIT License](LICENSE). Copyright (c) Jeremy Harris.
