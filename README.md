@@ -58,7 +58,7 @@ This is a sample text file.
 
 ## Requirements
 
-- Bash (version 4.0 or later)
+- Bash (version 3.2 or later [earlier versions may work]) or other compatible Unix-like shells (e.g., `ksh`, `zsh`).
 - Unix-like operating system (Linux, macOS, etc.)
 
 ## Installation
