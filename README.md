@@ -2,8 +2,9 @@
 
 <img src="assets/globcat.webp" alt="Glob Cat" width="400"/>
 
-`globcat.sh` is a bash script that searches for files matching specified patterns (globs) within given directories and displays their contents. It's a useful 
-utility for quickly finding and reviewing files in a structured manner.
+`globcat.sh` is a tiny little script that concatenates multiple files together, as specified by a glob pattern, and outputs them to standard output.
+
+I personally use it to send the source code of multiple files to ChatGPT (and I even used it to help write the tests for this project).
 
 ## Usage
 
