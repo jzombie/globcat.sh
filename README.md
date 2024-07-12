@@ -4,7 +4,9 @@
 
 `globcat.sh` is a tiny little shell script that concatenates multiple files together, as specified by a glob pattern, and outputs them to standard output.
 
-I personally use it to send the source code of multiple files to ChatGPT (and I even used it to help write the tests for this project).
+I personally use it to send the source code of multiple files, from multiple directories, to ChatGPT, typically in a single prompt.
+
+Absolute file paths are prepended to each section of the output, making it easy to give context to ChatGPT when asking questions such as, "help me write tests for this."
 
 ## Usage
 
