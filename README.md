@@ -12,6 +12,24 @@ I personally use it to send the source code of multiple files to ChatGPT (and I 
 ./globcat.sh [-e globs] [-d directories]
 ```
 
+## Example Output
+
+```
+File: /path/to/docs/example.md
+-------------------------------------
+# Example Markdown
+
+This is a sample markdown file.
+
+=====================================
+
+File: /path/to/src/example.txt
+-------------------------------------
+This is a sample text file.
+
+=====================================
+```
+
 ### Options
 
 - `-e globs`:
@@ -37,24 +55,6 @@ This command will search for files with extensions `.md` and `.txt` within the `
 2. **Default Directory**: If no directories are provided, it defaults to the current directory.
 3. **Absolute Paths**: Converts relative directory paths to absolute paths.
 4. **File Search and Display**: Recursively searches for files matching the specified globs in each directory, sorts the results, and displays their contents.
-
-## Example Output
-
-```
-File: /path/to/docs/example.md
--------------------------------------
-# Example Markdown
-
-This is a sample markdown file.
-
-=====================================
-
-File: /path/to/src/example.txt
--------------------------------------
-This is a sample text file.
-
-=====================================
-```
 
 ## Requirements
 
