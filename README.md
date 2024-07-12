@@ -93,6 +93,16 @@ Run the Docker container to execute the tests:
 $ docker run --rm globcat-test
 ```
 
+## Run directly from GitHub
+
+Change the parameters as needed.
+
+Running scripts directly from GitHub is generally not an advisable thing to do, by the way, but here are the instructions on how to do it anyway.
+
+```bash
+curl -sL https://raw.githubusercontent.com/jzombie/globcat.sh/main/globcat.sh | bash -s -- -e '*.md,*.txt' -d '.'
+```
+
 ## Contributing
 
 If you have suggestions for improvements or find any issues, please feel free to submit a pull request or open an issue on the GitHub repository.
