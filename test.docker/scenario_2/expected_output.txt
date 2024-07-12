@@ -1,4 +1,4 @@
-File: /usr/src/app/test/test3/file1.md
+File: /usr/src/app/test.docker/scenario_2/test3/file1.md
 -------------------------------------
 # Markdown File 1
 
@@ -6,7 +6,7 @@ Content of markdown file 1.
 
 =====================================
 
-File: /usr/src/app/test/test4/file3.md
+File: /usr/src/app/test.docker/scenario_2/test4/file3.md
 -------------------------------------
 # Markdown File 3
 

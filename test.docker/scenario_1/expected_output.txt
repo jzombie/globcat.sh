@@ -1,10 +1,10 @@
-File: /usr/src/app/test/test1/123.txt
+File: /usr/src/app/test.docker/scenario_1/test1/123.txt
 -------------------------------------
 Hello
 
 =====================================
 
-File: /usr/src/app/test/test2/hi.txt
+File: /usr/src/app/test.docker/scenario_1/test2/hi.txt
 -------------------------------------
 world
 
