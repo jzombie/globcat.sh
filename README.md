@@ -8,6 +8,24 @@ I personally use it to send the source code of multiple files, from multiple dir
 
 Absolute file paths are prepended to each section of the output, making it easy to give context to ChatGPT when asking questions such as, "help me write tests for this."
 
+## Example Output
+
+```
+File: /path/to/docs/example.md
+-------------------------------------
+# Example Markdown
+
+This is a sample markdown file.
+
+=====================================
+
+File: /path/to/src/example.txt
+-------------------------------------
+This is a sample text file.
+
+=====================================
+```
+
 ## Usage
 
 ```bash
@@ -40,23 +58,6 @@ This command will search for files with extensions `.md` and `.txt` within the `
 3. **Absolute Paths**: Converts relative directory paths to absolute paths.
 4. **File Search and Display**: Recursively searches for files matching the specified globs in each directory, sorts the results, and displays their contents.
 
-## Example Output
-
-```
-File: /path/to/docs/example.md
--------------------------------------
-# Example Markdown
-
-This is a sample markdown file.
-
-=====================================
-
-File: /path/to/src/example.txt
--------------------------------------
-This is a sample text file.
-
-=====================================
-```
 
 ## Requirements
 
