@@ -2,7 +2,7 @@
 
 <img src="assets/globcat.webp" alt="Glob Cat" width="400"/>
 
-`globcat.sh` is a tiny little shell script that concatenates multiple files together, as specified by a glob pattern, and outputs them to standard output.
+`globcat.sh` is a tiny little shell script that concatenates multiple files together, as specified by a glob pattern, and sends them to standard output.
 
 I personally use it to send the source code of multiple files, from multiple directories, to ChatGPT, typically in a single prompt.
 
