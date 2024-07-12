@@ -1,5 +1,7 @@
 # globcat.sh
 
+<img src="assets/globcat.webp" alt="Glob Cat" width="400"/>
+
 `globcat.sh` is a bash script that searches for files matching specified patterns (globs) within given directories and displays their contents. It's a useful 
 utility for quickly finding and reviewing files in a structured manner.
 
