@@ -75,6 +75,16 @@ chmod +x globcat.sh
 
 3. Run the script using the usage instructions above.
 
+### Making it a global command
+
+Follow the preceding instructions for `chmod +x` and then run the following:
+
+```bash
+$ sudo ln -s $(pwd)/globcat.sh /usr/local/bin/globcat
+```
+
+Now `globcat` will be a system command that you can run from any directory.
+
 ## Testing with Docker
 
 ### Why Use Docker for Testing?
@@ -88,7 +98,7 @@ Using Docker for testing ensures that the absolute file paths are handled consis
 Navigate to the root directory of your project (where `globcat.sh` is located) and build the Docker image using the following command:
 
 ```bash
-$ docker build -t globcat-test -f test.docker/Dockerfile .
+docker build -t globcat-test -f test.docker/Dockerfile .
 ```
 
 2. Run the Docker Container
@@ -96,7 +106,7 @@ $ docker build -t globcat-test -f test.docker/Dockerfile .
 Run the Docker container to execute the tests:
 
 ```bash
-$ docker run --rm globcat-test
+docker run --rm globcat-test
 ```
 
 ## Run directly from GitHub
