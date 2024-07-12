@@ -109,3 +109,7 @@ curl -sL https://raw.githubusercontent.com/jzombie/globcat.sh/main/globcat.sh | 
 ## Contributing
 
 If you have suggestions for improvements or find any issues, please feel free to submit a pull request or open an issue on the GitHub repository.
+
+## License
+
+[MIT License](LICENSE). Copyright (c) Jeremy Harris.
