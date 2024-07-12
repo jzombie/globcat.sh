@@ -79,7 +79,7 @@ Using Docker for testing ensures that the absolute file paths are handled consis
 
 1. Build the Docker Image
 
-Navigate to the root directory of your project (where globcat.sh is located) and build the Docker image using the following command:
+Navigate to the root directory of your project (where `globcat.sh` is located) and build the Docker image using the following command:
 
 ```bash
 $ docker build -t globcat-test -f test.docker/Dockerfile .
