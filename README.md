@@ -69,6 +69,22 @@ chmod +x globcat.sh
 
 3. Run the script using the usage instructions above.
 
+## Testing with Docker
+
+### Why Use Docker for Testing?
+
+Using Docker for testing ensures that the absolute file paths are handled consistently across different environments. This approach is particularly useful to ensure that the script behaves as expected when dealing with absolute paths.
+
+#### Docker Test Instructions
+
+1. Build the Docker Image
+
+Navigate to the root directory of your project (where globcat.sh is located) and build the Docker image using the following command:
+
+bash```
+docker build -t globcat-test -f test.docker/Dockerfile .
+```
+
 ## Contributing
 
 If you have suggestions for improvements or find any issues, please feel free to submit a pull request or open an issue on the GitHub repository.
