@@ -80,7 +80,7 @@ chmod +x globcat.sh
 Follow the preceding instructions for `chmod +x` and then run the following:
 
 ```bash
-$ sudo ln -s $(pwd)/globcat.sh /usr/local/bin/globcat
+sudo ln -s $(pwd)/globcat.sh /usr/local/bin/globcat
 ```
 
 Now `globcat` will be a system command that you can run from any directory.
